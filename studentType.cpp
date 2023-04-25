@@ -138,6 +138,7 @@ using namespace std;
             }
         }
         system("pause");
+        return true;
     }
     bool studentType::addCourse(courseType **&courses, const int pos, int& courseTypeSIZE){
         //this is just a simple function, all i need to do is have a paramaters of the courses, studentCourses, and value (position of courses), grab the position of courses, add to studentCourses and +1 to enrollment.
@@ -166,6 +167,7 @@ using namespace std;
            // numCoursesPrevious -= 1;
             //cout << studentCourses[numCoursesPrevious]->getSectionID();
            //cout << studentCourses[numCourses]->getTitle();
+           return true;
 
         }else{
             cout << "Exceed the maximum amount of classes! || or CLASS Cap has been hit!" << endl;

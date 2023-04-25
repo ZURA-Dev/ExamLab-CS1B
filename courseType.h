@@ -59,7 +59,7 @@ static void setCensus(int census);
 void print(courseType **&courses, int& courseTypeSIZE , int value);
 //void addCourses(){}
 
-bool enrollStudent();
+//bool enrollStudent();
 
 };
 

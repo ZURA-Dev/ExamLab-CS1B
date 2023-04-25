@@ -199,5 +199,5 @@ if (getEnrolled < getCap){
         }
     }
 }*/
-bool courseType::enrollStudent(){}
+//bool courseType::enrollStudent(){}
 
